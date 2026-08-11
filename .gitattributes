@@ -1,0 +1,11 @@
+# Do not edit manually
+# Normalize line endings
+*.json linguist-detectable=false
+
+src/*.ts linguist-detectable
+src/** linguist-detectable
+
+public/*.html linguist-vendored
+
+*.woff binary
+*.bat text eol=crlf
